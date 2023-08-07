@@ -1,0 +1,86 @@
+#booking-information{
+    padding-top: 120px;
+    min-height: 600px;
+    margin-bottom: 120px ;
+}
+#booking-information h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 10px;
+}
+#booking-information p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black25);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sub-title{
+    color: var(--black);
+}
+#booking-information .img-book img{
+    width: 80%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#booking-information .img-bank{
+    margin-top: 50px;
+}
+#booking-information .img-bank img{
+    width: 50%;
+}
+#booking-information .form-book .label-book{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+#booking-information .form-book input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+    padding: 8px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#booking-information .form-book input::placeholder{
+    color: var(--black25);
+}
+#booking-information .btn-primary{
+    background-color: var(--green);
+    margin-top: 40px;
+    padding: 12px 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
+#booking-information h2{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black);
+    margin-top: 24px;
+    text-transform: capitalize;
+}
+#booking-information h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black75);
+    margin-top: 4px;
+    text-transform: capitalize;
+}
+#booking-information h3 .total{
+    color: var(--green);
+}

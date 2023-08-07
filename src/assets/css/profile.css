@@ -1,0 +1,125 @@
+#my-profile{
+    padding-top: 120px;
+    min-height: 600px;
+    margin-bottom: 120px ;
+}
+#my-profile h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    text-align: left;
+    margin-bottom: 50px;
+}
+.sub-title{
+    color: var(--black);
+}
+#my-profile .card{
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#my-profile .card .card-body h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black);
+}
+#my-profile .card .card-body p{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black50);
+    margin: 8px 0 56px 0;
+}
+.btn-green{
+    width: 100%;
+    background-color: #00ae51d5;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.btn-green:hover{
+    background-color: var(--green);
+}
+#my-profile .card .card-body .btn-green a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 12px 15%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#edit-profile{
+    padding-top: 120px;
+    min-height: 600px;
+    margin-bottom: 120px ;
+}
+#edit-profile h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 70px;
+}
+/* #edit-profile .form-profile{
+    margin-bottom: 24px;
+} */
+#edit-profile .form-profile .label-profile{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+#edit-profile .form-profile h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+#edit-profile .form-profile input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+    padding: 8px 10px;
+}
+#edit-profile .btn-primary{
+    background-color: var(--green);
+    margin-top: 30px;
+    padding: 12px 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
+#edit-profile .img-edit img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

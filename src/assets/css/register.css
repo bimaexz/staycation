@@ -1,0 +1,57 @@
+#register{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+#register img{
+    height: 100vh;
+}
+#register .form-register .form-profile .label-profile{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+#register .form-register .form-profile input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+    padding: 8px 10px;
+}
+#register .form-register .btn-primary{
+    background-color: var(--green);
+    margin-top: 30px;
+    padding: 12px 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
+#register .form-register .img-edit img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#register .form-register h1{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    margin-bottom: 8px;
+}
+#register .form-register p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black25);
+    margin-bottom: 36px;
+}
+#register .form-register{
+    padding: 50px 150px 0 0;
+}

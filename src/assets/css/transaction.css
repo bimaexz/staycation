@@ -1,0 +1,173 @@
+#transaction{
+    padding-top: 120px;
+    min-height: 600px;
+    margin-bottom: 120px ;
+}
+#transaction h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    text-align: left;
+    margin-bottom: 50px;
+}
+.sub-title{
+    color: var(--black);
+}
+#transaction .card{
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#transaction .card .card-body h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black);
+}
+#transaction .card .card-body p{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black50);
+    margin: 8px 0 70px 0;
+}
+#transaction .btn-green{
+    width: 40%;
+    background-color: #00ae51d5;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#transaction .btn-green:hover{
+    background-color: var(--green);
+}
+#transaction .card .card-body .btn-green a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 12px 15%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#transaction-detail{
+    padding-top: 120px;
+    min-height: 600px;
+    margin-bottom: 120px ;
+}
+#transaction-detail h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sub-title{
+    color: var(--black);
+}
+#transaction-detail .form-profile .label-profile{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+#transaction-detail .form-profile h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+    margin-left: 10px;
+}
+#transaction-detail .form-profile input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-top: 5px;
+    margin-bottom: 26px;
+}
+/* #transaction-detail .btn-primary{
+    background-color: var(--green);
+    margin-top: 30px;
+    padding: 12px 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+} */
+#transaction-detail .img-edit img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#success{
+    padding: 6% 0;
+}
+#success .card{
+    padding: 50px;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#success .card h1{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+#success .card h2{
+    width: 30%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black25);
+    margin-bottom: 60px
+}
+#success .card img{
+    margin-bottom: 60px;
+}
+#success .card a{
+    border-radius:10px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #00ae51d5;
+    padding: 1.5% 12%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#success .card a:hover{
+    background-color: var(--green);
+}

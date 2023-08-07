@@ -1,0 +1,236 @@
+#breadcrumb{
+    padding-top: 10%;
+}
+#breadcrumb .breadcrumb .breadcrumb-item{
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+#breadcrumb .breadcrumb .breadcrumb-item a{
+    text-decoration: none;
+    color: var(--black25);
+}
+#hero .title h1{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    margin-top: 10px;
+    color: var(--green);
+    text-transform: capitalize;
+}
+#hero .title p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: var(--black50);
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+#hero .image-big img, #hero .image-sm img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#destination-desc{
+    margin-top: 50px;
+}
+#destination-desc h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--green);
+}
+#destination-desc h1 .sub-title{
+    color: var(--black);
+}
+#destination-desc .detail-desc {
+    width: 75%;
+    margin-top: 50px;
+}
+#destination-desc .detail-desc p{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black50);
+    text-align: center;
+    margin-bottom: 15px;
+}
+#nearest-hotels{
+    margin-top: 70px;
+}
+#nearest-hotels h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black);
+    text-align: right;
+    margin-bottom: 70px;
+}
+#nearest-hotels h1 .sub-title{
+    color: var(--green);
+}
+.owl-item .active::before{
+    background-color: transparent !important;
+}
+.owl-nav, .owl-dots{
+    display: none;
+}
+.owl-dots .active::before{
+    background-color: transparent !important;
+}
+#nearest-hotels .item{
+    margin: 0 20px;
+}
+#nearest-hotels .card{
+    border: none;
+}
+#nearest-hotels .card .flip{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#nearest-hotels .card .card-front{
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#nearest-hotels .card .card-back{
+    background: var(--black);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#nearest-hotels .card .card-front img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#nearest-hotels .card .card-title h4{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+#nearest-hotels .card .card-title p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: var(--black50);
+}
+#nearest-hotels .card .flip .card-back .btn-scd a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 12px 24px;
+    border: 2px solid var(--white);
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#nearest-hotels .card .flip .card-back .btn-scd a:hover{
+    color: var(--green);
+    border-color: var(--green);
+}
+#nearest-hotels .card .flip:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+#nearest-hotels .card .flip:hover .card-back {
+    opacity: 1;
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+}
+#add-story{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#add-story h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black);
+    text-align: left;
+    margin-bottom: 12px;
+}
+#add-story h1 .sub-title{
+    color: var(--green);
+}
+#add-story form{
+    padding: 0 20px;
+}
+#add-story form textarea{
+    width: 100%;
+    border: 2px solid var(--black25);
+    outline-color: var(--green);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 12px;
+}
+#add-story form textarea:active{
+    outline-color: var(--green);
+}
+#add-story p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black50);
+    margin-bottom: 50px;
+}
+#add-story .btn-primary{
+    background-color: var(--green);
+    margin-top: 30px;
+    padding: 12px 6%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
